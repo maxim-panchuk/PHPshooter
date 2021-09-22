@@ -1,0 +1,34 @@
+body {
+    font-family: Mulish;
+}
+
+
+/* Селектор элемента */
+header {
+    height: 100px;
+    background-color: #3399ff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+
+#inputY {
+    padding: 2% 2% 2% 2%;
+}
+
+/* Псевдоэлемент */
+h1::first-letter {
+    color: #3f3d41;
+}
+
+/* Идентификатор */
+#legend {
+    color: #3399FFFF;
+}
+
+/* По атрибуту */
+[class=form-check-label] {
+    font-size: 15px;
+}
+
+
+
